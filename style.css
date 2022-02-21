@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gideon Roman', cursive;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.75rem;
+}
+body {
+  background: hsl(217, 54%, 11%);
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+.font {
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+#main-container {
+  background: hsl(216, 50%, 16%);
+  border-radius: 1em;
+  width: 45vh;
+  height: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: -16px 26px 13px 3px rgba(0, 0, 0, 0.1);
+}
+
+#col-1 {
+  height: 60%;
+  width: 100%;
+}
+
+#col-2 {
+  height: 30%;
+  width: 100%;
+}
+
+#col-3 {
+  height: 10%;
+  width: 100%;
+  margin-block: 0.5rem;
+}
+
+#img-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#img-container img#view-icon {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img-container img#item-img {
+  width: 85%;
+  height: 90%;
+  border-radius: 1rem;
+}
+
+#name-container {
+  color: hsl(0, 0%, 100%);
+  margin: 1rem 0 1rem 2rem;
+  font-weight: 600;
+}
+#name-container:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+#detail-container {
+  margin-left: 2rem;
+  color: rgb(175, 167, 167);
+  text-align: left;
+}
+#detail-container small {
+  font-weight: 300;
+}
+
+#nft-detail {
+  margin-inline: 2rem;
+  margin-bottom: 1rem;
+}
+#nft-detail label {
+  color: hsl(0, 0%, 100%);
+}
+#nft-detail p {
+  color: hsl(0, 0%, 100%);
+}
+
+#nft-detail label:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  width: 90%;
+  margin-inline: auto;
+  border: 1px solid gray;
+}
+#avatar-container {
+  margin-left: 2rem;
+}
+#avatar-container img {
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+#avatar-detail {
+  margin-left: 2rem;
+}
+
+#avatar-detail p a {
+  margin-left: 0.5rem;
+}
